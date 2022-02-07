@@ -1,0 +1,11 @@
+# install docx2txt
+pip install docx2txt
+
+# import docx2txt
+import docx2txt
+ 
+# read in word file
+result = docx2txt.process("Test.docx")
+
+# print the text
+print(result)
